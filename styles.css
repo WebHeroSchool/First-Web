@@ -1,0 +1,43 @@
+.title {
+	font-family: 'PT Serif', serif;
+	color: #000000;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 66px;
+}
+.titul{
+	font-family: 'PT Serif', serif;
+	color: #000000;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.link{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #000000;
+}
+
+.indent{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.butt{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	border-radius: 4px;
+}

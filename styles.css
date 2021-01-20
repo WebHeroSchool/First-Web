@@ -1,13 +1,21 @@
 .wrapper{
 	margin: auto;
 	width: 80%;
-	border: dashed 1px red;
 }
 
-.main-content__title {
-	font-family: pt_serif, serif;
+.main__title {
 	color: #000;
-	font-size: 50px;
+	margin:0 0 40px 0;
+	font: bold 66px/87.45px 'PT Serif', arial, helvetica, sans-serif ;
+}
+
+.main{
+	padding: 0 54% 246px 0;
+	background: top right no-repeat url(img/image.svg);
+}
+
+.main_title-text_highlight{
+	background: #ECF3FF;
 }
 
 .menu{
@@ -66,7 +74,7 @@
 	text-decoration: none;
 	color: #000;
 	transition: opacity .5s;
-	font: 500 18px/21px roboto, arial, helvetica, sans-serif ;
+	font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif ;
 }
 
 .logo{
@@ -79,42 +87,28 @@
 	display: flex;
 	padding: 40px 0;
 	justify-content: space-between; 
+	margin-bottom: 246px; 
 }
 
-.main-section{
-	margin-top: 30% ;
-	width: 567px;
-	height: 255px;
-	border: dashed 1px red;
-}
-
-
-.main-content__subtitle, .main-content__button{
-	font-family: roboto, sans-serif;
-	color: #000;
-}
-
-.main-content__subtitle{
-	margin-top: 7%;
-	margin-bottom: 0;
-	font-size: 22px;
+.main__subtitle{
+	margin: 0 0 41px 0;
 	width: 455px;
 	height: 52px;
-	border: dashed 1px red;
+	color: #000;
+	font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif ;
 }
 
-.main-content__button{
+.main__button{
 	color: #FFFFFF;
-	margin-top: 7%;
-	margin-bottom: 58%;
+	padding: 18px 21px;
+	margin: 0;
 	background: #0056EC;
-	font-size: 18px;
 	border-radius: 4px;
-	width: 270.75px;
-	height: 57px;
-	border: dashed 1px red;
+	text-decoration: none;
+	transition: opacity .5s;
+	font: 500 18px/21.09px 'Roboto', arial, helvetica, sans-serif ;
 }
 
-.image-content__image{
-	border: dashed 1px red;
+.main__button:hover{
+	opacity: .5;
 }

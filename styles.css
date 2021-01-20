@@ -5,7 +5,7 @@
 }
 
 .main-content__title {
-	font-family: 'PT Serif', serif;
+	font-family: pt_serif, serif;
 	color: #000;
 	font-size: 50px;
 }
@@ -66,7 +66,7 @@
 	text-decoration: none;
 	color: #000;
 	transition: opacity .5s;
-	font: 500 18px/21px'Roboto', arial, helvetica, sans-serif ;
+	font: 500 18px/21px roboto, arial, helvetica, sans-serif ;
 }
 
 .logo{
@@ -90,7 +90,7 @@
 
 
 .main-content__subtitle, .main-content__button{
-	font-family: 'Roboto', sans-serif;
+	font-family: roboto, sans-serif;
 	color: #000;
 }
 

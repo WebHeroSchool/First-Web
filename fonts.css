@@ -89,7 +89,7 @@
 
 
 @font-face {
-    font-family: 'roboto';
+    font-family: 'Roboto';
     src: url('roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -97,14 +97,20 @@
 }
 
 @font-face {
-    font-family: 'pt_serif';
+    font-family: 'PT Serif';
     src: url('ptserif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+@font-face {
+    font-family: 'pt_serifbold';
+    src: url('ptserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 
 @font-face {

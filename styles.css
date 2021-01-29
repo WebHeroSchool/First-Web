@@ -17,7 +17,7 @@
 }
 .menu__item{
   position: relative;
-  margin-right: 26px;
+  margin-right: 29px;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
@@ -58,19 +58,15 @@
 .main{
   width: 80%;
   margin: auto;
-  padding-left: 10px;
-  padding-right: 21px;
-  padding-bottom: 250px;
+  padding: 0 21px 250px 10px;
   background: url(img/main_img.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 50%;
 }
 .main__title{
-  margin-top: 248px;
-  margin-bottom: 40px;
-  padding-top: 73px;
-  padding-left: 3px;
+  margin: 125px 0 35px 0;
+  padding: 73px 0 0 3px;
   font: bold 66px/88px 'Pt Serif', arial, helvetica, sans-serif;
   width: 50%;
 }

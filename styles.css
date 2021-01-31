@@ -9,7 +9,7 @@
 .logo{
   width: 99px;
   height: 18px;
-  background: url('img/logo.svg');
+  background: url('img/main_logo.svg');
   background-size: 99px; 
 }
 .menu{
@@ -60,7 +60,7 @@
   width: 79%;
   margin: auto;
   padding: 0 0 250px 0;
-  background: url(img/main_img.svg);
+  background: url(img/main_image.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 50%;

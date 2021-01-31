@@ -1,6 +1,6 @@
 .header{
-  padding: 12.8px 0 59px 0;
-  width: 80%;
+  padding: 12px 0 59px 0;
+  width: 79%;
   margin: auto;
   display:flex;
   justify-content: space-between;
@@ -18,8 +18,8 @@
 }
 .menu__item{
   position: relative;
-  margin-right: 12px;
-  font: 500 10px/11px 'Roboto', arial, helvetica, sans-serif;
+  margin-right: 11px;
+  font: 500 9.9px/10px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
   transition: opacity .5s;
@@ -63,7 +63,7 @@
   background: url(img/main_image.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 50%;
+  background-size: 50.9%;
 }
 .main__title{
   margin: 21px 0 15px 0;

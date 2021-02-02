@@ -86,7 +86,7 @@
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s ease;
-  /*animation: butn 6s infinite ease-in-out;*/
+  animation: butn 6s infinite ease-in-out;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif ;
 }
 .main__button:hover{

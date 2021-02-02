@@ -86,6 +86,7 @@
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s ease;
+  /*animation: butn 6s infinite ease-in-out;*/
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif ;
 }
 .main__button:hover{
@@ -113,35 +114,51 @@
   }
   .menu__item{
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    margin-right: 28px;
+    margin-right: 24px;
   }
   .main{
     margin: 0;
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 132px;
     background-position: 90%;
   }
   .main__title{
     margin-top: 0;
     margin-right: 0;
-    padding: 80px 0 1px 25px;
+    padding: 81px 0 1px 17px;
     font: 1000 50px/67px 'Pt Serif', arial, helvetica, sans-serif;
     width: 50%;
-    letter-spacing: 2px;
     line-height: 1.3;
   }
   .main__subtitle{
-    padding-left: 25px;
+    padding-left: 20px;
     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
-    width: 35%;
+    width: 36%;
   }
   .main__button{
-    margin-left: 30px;
+    margin-left: 20px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 21px;
   }
 }
 
+@keyframes butn{
+  0%{
+    background: #4A49CA;
+  }
+  30%{
+    background: #7EE8D4;
+  }
+  60%{
+    background: #009790;
+  }
+  80%{
+    background: #0056EC;
+  }
+  100%{
+    background: #4A49CA;
+  }
+}
 @media (max-width:1200px) {
   .wrapper{
     margin: auto;
@@ -158,7 +175,7 @@
   }
   .main__title{
     width: 45%;
-    font: 700 40px/50px 'Pt Serif', arial, helvetica, sans-serif;
+    font: 700 50px/66px 'Pt Serif', arial, helvetica, sans-serif;
   }
 
 @media(max-width:900px) {
@@ -262,7 +279,7 @@
   }
   .menu__item_burger {
     display: block;
-    padding: 3px 0;
+    padding: 5px 0;
     color: #333;
     margin: 10px 0 30px 0;
     font: bold 30px/21px Roboto, arial, helvetica, sans-serif;
@@ -271,7 +288,7 @@
   }
   .menu__item_burger:first-child {
     margin-right: 0;
-    margin-top: 51%;
+    margin-top: 49%;
   }
   #menu__toggle:checked ~ .menu__button > span {
     transform: rotate(45deg);

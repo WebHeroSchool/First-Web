@@ -48,7 +48,6 @@
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
-
 .menu__item:hover:after, .menu__item_active:after{
   opacity: 1;
   width: 100%
@@ -231,7 +230,6 @@
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 21px;
   }
-
   #menu__toggle{
     opacity: 0;
   }

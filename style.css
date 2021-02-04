@@ -91,7 +91,6 @@
 .main__button:hover{
   opacity: .5;
 }
-
 @media(min-width: 769px){
   .burger{
     display: none;
